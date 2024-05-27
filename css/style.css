@@ -344,7 +344,7 @@ ul.lan li {
      position: absolute;
      right: -3px;
      top: 5px;
-     background: #f2db18;
+     background: #f29018;
      width: 20px;
      height: 21px;
      line-height: 15px;
@@ -401,7 +401,7 @@ ul.conta_icon li {
 
 ul.conta_icon li a i {
      padding-right: 5px;
-     color: #f2db18;
+     color: #f29018;
 }
 
 ul.conta_icon li a {
@@ -411,7 +411,7 @@ ul.conta_icon li a {
 }
 
 ul.conta_icon li a:hover {
-     color: #f2db18;
+     color: #f29018;
      text-decoration: underline !important;
 }
 
@@ -467,7 +467,7 @@ ul.conta_icon li a:hover {
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
      color: #ffffff;
-     background-color: #f2db18;
+     background-color: #f29018;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
@@ -475,7 +475,7 @@ ul.conta_icon li a:hover {
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
      color: #ffffff;
-     background-color: #f2db18;
+     background-color: #f29018;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -499,7 +499,7 @@ ul.sign li a i {
 .sign_btn {
      float: right;
      max-width: 161px;
-     background: #f2db18;
+     background: #f29018;
      font-size: 17px !important;
      width: 100%;
      text-align: center;
@@ -539,7 +539,7 @@ ul.sign li a i {
      line-height: 28px;
      padding-bottom: 20px;
      display: block;
-     color: #f2db18;
+     color: #f29018;;
      font-size: 30px;
      font-weight: 600;
 }
@@ -567,7 +567,7 @@ ul.sign li a i {
      position: absolute;
      content: "";
      top: 3px;
-     border-right: #ffff00 solid 1px;
+     border-right: #f29018 solid 1px;
      border-width: 90px;
      height: 1px;
      right: -111px;
@@ -601,7 +601,7 @@ ul.sign li a i {
 }
 
 .yellow {
-     color: #f2db18;
+     color: #f29018;;
      font-size: 17px;
      font-weight: bold;
      text-transform: uppercase;
@@ -688,7 +688,7 @@ ul.sign li a i {
 .about_box span {
      font-size: 17px;
      font-weight: 600;
-     color: #f2db18;
+     color: #f29018;;
      line-height: 30px;
      padding-top: 25px;
      text-transform: uppercase;
@@ -717,7 +717,7 @@ ul.sign li a i {
      margin-top: 7px;
      padding: 8px 0;
      margin-left: 40px;
-     background-color: #f2db18;
+     background-color: #f29018;
      max-width: 168px;
      width: 100%;
      display: inline-block;
@@ -777,12 +777,12 @@ ul.sign li a i {
 
 #ho_color:hover.service_box h3 {
      transition: ease-in all 0.5s;
-     color: #f2db18;
-     border-bottom: #f2db18 solid 3px;
+     color: #f29018;;
+     border-bottom: #f29018 solid 3px;
 }
 
 .service .read_more {
-     color: #f2db18 !important;
+     color: #f29018 !important;
      margin: 0 auto;
      max-width: 140px;
      width: 100%;
@@ -792,7 +792,7 @@ ul.sign li a i {
 }
 
 .service .read_more::before {
-     border-right: #f2db18 solid 1px;
+     border-right: #f29018 solid 1px;
      border-right-width: 1px;
      border-width: 90px;
 }
@@ -859,7 +859,7 @@ ul.sign li a i {
      transform: translate(-50%, -50%);
      -ms-transform: translate(-50%, -50%);
      text-align: center;
-     background-color: #ebd93cc2;
+     background-color: #eba53cc2;
      width: 90%;
      height: 92%;
 }
@@ -908,12 +908,12 @@ ul.sign li a i {
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
-     background: #f2db18;
+     background: #f29018;
      color: #fff;
 }
 
 .portfolio .read_more {
-     color: #f2db18 !important;
+     color: #f29018 !important;
      margin: 0 auto;
      max-width: 140px;
      width: 100%;
@@ -923,7 +923,7 @@ ul.sign li a i {
 }
 
 .portfolio .read_more::before {
-     border-right: #f2db18 solid 1px;
+     border-right: #f29018 solid 1px;
      border-right-width: 1px;
      border-width: 90px;
 }
@@ -967,18 +967,18 @@ ul.sign li a i {
 }
 
 .business .business_box p {
-     color: #f2db18;
+     color: #f29018;
      font-size: 19px;
      font-weight: bold;
 }
 
 .business .read_more {
-     color: #f2db18 !important;
+     color: #f29018 !important;
      margin-top: 60px;
 }
 
 .business .read_more::before {
-     border-right: #f2db18 solid 1px;
+     border-right: #f29018 solid 1px;
      border-width: 90px;
 }
 
@@ -1040,7 +1040,7 @@ ul.social_icont li a {
 }
 
 #ho_bg:hover.team_img img {
-     border: #e5d660 solid 15px;
+     border: #e59160 solid 15px;
      background-color: #ddd;
 }
 
@@ -1078,7 +1078,7 @@ ul.social_icont li a {
 }
 
 .team_Carousel .carousel-indicators li {
-     background-color: #f2db18;
+     background-color: #f29018;
      width: 15px;
      height: 15px;
      border-radius: 20px;
@@ -1123,7 +1123,7 @@ ul.social_icont li a {
      line-height: 28px;
      padding-top: 27px;
      display: inline-block;
-     color: #f2db18;
+     color: #f29018;
      text-transform: uppercase;
      margin-left: 20px;
      float: left;
@@ -1135,7 +1135,7 @@ ul.social_icont li a {
      line-height: 28px;
      color: #383737;
      text-align: left;
-     border: #f2db18 solid 1px;
+     border: #f29018 solid 1px;
      display: inline-block;
      margin-bottom: 30px;
 }
@@ -1150,7 +1150,7 @@ ul.social_icont li a {
 }
 
 .testimonial_Carousel .carousel-indicators li {
-     background-color: #f2db18;
+     background-color: #f29018;
      width: 15px;
      height: 15px;
 }
@@ -1211,7 +1211,7 @@ ul.social_icont li a {
 .contact_form .send_btn {
      font-size: 20px;
      transition: ease-in all 0.5s;
-     background-color: #f2db18;
+     background-color: #f29018;
      text-transform: uppercase;
      color: #fffefe;
      padding: 15px 0px;
@@ -1289,7 +1289,7 @@ ul.location_icon li a {
 }
 
 ul.location_icon li a:hover {
-     color: #eed818;
+     color: #ee9818;
 }
 
 ul.social_icon {
@@ -1319,7 +1319,7 @@ ul.social_icon li a {
 }
 
 ul.social_icon li a:hover {
-     background: #eed818;
+     background: #ee9818;
      color: #fff;
 }
 
@@ -1372,7 +1372,7 @@ ul.img_icon li {
 .main_form .send_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #efd818;
+     background-color: #ef8718;
      text-transform: uppercase;
      color: #fff;
      padding: 9px 0px;
