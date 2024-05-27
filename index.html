@@ -547,6 +547,19 @@
                   <h3>Contacto</h3>
                   <ul class="location_icon">
                      <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a> Urbano Villalón num.500, Col. La Ladrillera, San Luis Potosí, S.L.P. México, C.P. 78363
+                        <div id="map" style="width:200px;height:200px;background:yellow"></div>
+<script>
+function myMap() {
+  var mapOptions = {
+    center: new google.maps.LatLng(22.12194444, -100.98444444),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+  };
+  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
                      </li>
                      <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>Atención Politécnica: politecnica@upslp.edu.mx</li>
                      <li><a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></a>Conmutador: (444) 870 - 21 - 00</li>
