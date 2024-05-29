@@ -94,6 +94,7 @@ function mostrarPregunta(){
        boton.classList.add("btn");
         boton.classList.add("btn-secondary");
         boton.classList.add("mt-3");
+        boton.classList.add("btn-lg");
        respuestasElemento.appendChild(boton);
        if(respuestas.valor){
            boton.dataset.valor = respuestas.valor;
@@ -124,7 +125,7 @@ function quitarPregunta(){
 }
 
 function mostrarPDF(){
-    let texto="La carrera ideal para ti es" +
+    let texto="La carrera ideal para ti es " +
         "";
     if(contador>=5){
         texto+= "Ingenieria en Tecnologias de la Informacion";
@@ -132,5 +133,9 @@ function mostrarPDF(){
         texto+="Ingenieria en Telematica";
     }
     doc.text(20,20,texto);
+    document.getElementById("quiz").innerHTML="<h2>"+texto+"</h2>"+"<button class='btn btn-warning btn-lg mt-3' onclick='guardar()'>Guardar Resultados</button>"
+}
+
+function guardar(){
     doc.save("Resultados.pdf");
 }
