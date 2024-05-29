@@ -106,6 +106,17 @@
       <!-- end header inner -->
       <!-- end header -->
       <!-- contact  section -->
+   <div class="container mt-5 p-5" >
+      <h1><strong>Checa nuestros comentarios</strong></h1>
+      <div id="blog-posts" class="mb-3 border" style="max-height: 400px; overflow-y: scroll">
+      </div>
+      <h2>Escribe aqui tu mensaje</h2>
+     <form id="post-form" class="input-group-text">
+         <input type="text" id="title" class="form-control" placeholder="Nombre" required>
+         <input type="text" id="content" class="form-control ml-1" placeholder="Recomendacion" required></input>
+         <button class="btn btn-warning ml-1" type="submit">Agregar Publicación</button>
+      </form>
+   </div>
       <div id="contact" class="contact ">
          <div class="container">
             <div class="row">
@@ -117,22 +128,25 @@
             </div>
             <div class="row">
                <div class="col-md-8 offset-md-2">
-                  <form action="javascript:void(0)" id="post_form" class="contact_form">
-                     <div class="row">
-                        <div class="col-md-12 ">
-                           <input class="contact_control" placeholder="Nombre" type="type" name="Nombre">
+                   <form name="contact-form" action="https://script.google.com/macros/s/AKfycbx94zciMUyvoYJgsaUwwwqPiq9vNVdxCQoSeYxzwI2IpzBLTgF1KpgXSjKtsE0uF8u0/exec" class="gform contact_form">
+                        <div class="row">
+                           <div class="col-md-12 ">
+                              <input class="contact_control" id="name" placeholder="Nombre" type="text" required name="name">
+                           </div>
+                           <div class="col-md-12">
+                              <input class="contact_control" id="email" placeholder="Email" type="email" required name="email">
+                           </div>
+                           <div class="col-md-12">
+                              <input class="contact_control" id="color" placeholder="Numero" type="number" required name="color">
+                           </div>
+                           <div class="col-md-12">
+                              <textarea class="contact_control" id="message" placeholder="Carrera de interes" required name="message"></textarea>
+                           </div>
+                           <div class="col-md-12">
+                              <input type="submit" value="Enviar" class="send_btn">
+                           </div>
                         </div>
-                        <div class="col-md-12">
-                           <input class="contact_control" placeholder="Email" type="type" name="Gmail"> 
-                        </div>
-                        <div class="col-md-12">
-                           <textarea class="textarea" placeholder="Mensaje" type="type" Message="Name"></textarea>
-                        </div>
-                        <div class="col-md-12">
-                           <button class="send_btn">ENVIAR</button>
-                        </div>
-                     </div>
-                  </form>
+                    </form>
                   </div>
                </div>
             </div>
@@ -140,25 +154,18 @@
       </div>
    <!-- end contact  section -->
 
-
    <!-- Cuestionario -->
-      <div >
-         <div class="container">
-            <div class="titlepage">
-               <h2><strong class="yellow">------</strong><br>Conoce tu enfoque hacia las carreras ATIT</h2>
-            </div>
-            <h1 class="mt-5"><strong>¿Cúal es mejor para ti?</strong></h1>
-            <div id="quiz">
-               <h2 class="motel" id="mostrarpregunta">Pregunta???</h2>
+      <div class="container mt-5">
+         <div class="container p-5 m-3 rounded shadow">
+            <h1 class="mt-5 mb-3"><strong>¿Cúal es mejor para ti?</strong></h1>
+            <div id="quiz" class="d-flex flex-column">
+               <h2 class="mb-3" id="mostrarpregunta">Pregunta???</h2>
                <div id="menupreguntas" class="d-flex flex-column">
                   <button onclick="preguntar()" class="mt-3 btn btn-secondary">Pregunta 1</button>
-                  <button class="mt-3 btn btn-secondary">Pregunta 2</button>
-                  <button class="mt-3 btn btn-secondary">Pregunta 3</button>
-                  <button class="mt-3 btn btn-secondary">Pregunta 4</button>
+
                </div>
             </div>
          </div>
-         <iframe src="" frameborder="0"></iframe>
       </div>
    <!-- Fin del cuestionario -->
 
@@ -403,8 +410,24 @@
    <!-- sidebar -->
    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
    <script src="js/custom.js"></script>
+   <script src="js/form.js"></script>
+   <script src="js/chatbot.js"></script>
    <script src="js/cuestionario.js"></script>
-
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+   <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+   <script src="js/blog.js"></script>
+   <!-- Start of ChatBot (www.chatbot.com) code -->
+   <script type="text/javascript">
+      window.__be = window.__be || {};
+      window.__be.id = "6656c98cb5bc95000755d2b7";
+      (function() {
+         var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+         be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+      })();
+   </script>
+   <noscript>You need to <a href="https://www.chatbot.com/help/chat-widget/enable-javascript-in-your-browser/" rel="noopener nofollow">enable JavaScript</a> in order to use the AI chatbot tool powered by <a href="https://www.chatbot.com/" rel="noopener nofollow" target="_blank">ChatBot</a></noscript>
+   <!-- End of ChatBot code -->
 </body>
 
 </html>
