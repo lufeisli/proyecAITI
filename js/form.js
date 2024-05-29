@@ -1,13 +1,11 @@
-function enviar(){
-    Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "martineztomaselias@gmail.com",
-        Password : "7C4993BA8409DBD44FC1DDEC7C774E5A3BDE",
-        To : "martineztomaselias@gmail.com",
-        From : document.getElementById("email").value,
-        Subject : "Estoy interesado",
-        Body : "Hola, soy " + document.getElementById("nombre").value + "<br>" + "Estoy interesado en la carrera " + document.getElementById("carrera").value + "<br>Mi numero de telefono es " + document.getElementById("numero").value,
-    }).then(
-        message => alert(message)
-    );
-}
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwxrr9gY3hHl86SuG0uv8nQa0NJHnmqFYqzCzrqM0w4wWDuE-B--j9r9iwch5FHZK6o/exec'
+
+const form = document.forms['contact-form']
+
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thank you! your form is submitted successfully." ))
+        .then(() => { window.location.reload(); })
+        .catch(error => console.error('Error!', error.message))
+})
